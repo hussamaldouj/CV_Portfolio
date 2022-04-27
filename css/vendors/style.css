@@ -74,12 +74,13 @@ body {
         display: none;
     }
     .dropdown h3{
-        left: 22%;
+        left: 26%;
+        top:28px;
     }
     #fa_2 {
         position: absolute;
-        top: 5%;
-        left: 90%;
+        top: 28px;
+        left: 85%;
         display: inline-block;
     }
 }
