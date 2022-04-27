@@ -27,7 +27,7 @@ body {
     text-align: center;
     position: absolute;
     left: 13%;
-    top: 5%;
+    top: 28px;
     text-transform: uppercase;
     height: max-content;
     margin: auto; 
@@ -86,14 +86,22 @@ body {
 }
 .container {
     background: #b810c7;
-    width: 20%;
-    min-height: 70%;
-    display:inline-block;
+    width: 350px;
+    min-height: 35%;
     position: absolute;
-    top:0%;
-    left: 10%;
+    top: 30%;
+    left: 1%;
     z-index: -1;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: -4px -4px 10px #0f0b0ef8 ;
+    border-top-left-radius: 125px;
+    border-bottom-right-radius: 125px;
+    box-shadow: -4px -4px 10px #0f0b0ef8;
+}
+.img_hussam{
+    width: min-content;
+    height: 100%;
+    border-radius: 125px;
+    position: absolute;
+    top: -40px;
+    left: 75px;
+    z-index: -1;
 }
