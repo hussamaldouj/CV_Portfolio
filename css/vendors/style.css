@@ -86,22 +86,37 @@ body {
 }
 .container {
     background: #b810c7;
-    width: 350px;
-    min-height: 35%;
+    width: 315px;
+    min-height: 31%;
     position: absolute;
     top: 30%;
+    display: flex;
     left: 1%;
     z-index: -1;
     border-top-left-radius: 125px;
     border-bottom-right-radius: 125px;
     box-shadow: -4px -4px 10px #0f0b0ef8;
+    transition: 6s;
 }
-.img_hussam{
+.img_hussam {
     width: min-content;
-    height: 100%;
+    height: 200px;
     border-radius: 125px;
     position: absolute;
-    top: -40px;
-    left: 75px;
+    top: -22px;
+    left: 61px;
     z-index: -1;
+    transition-duration: 6s;
+}
+.content{
+    position: relative;
+    top: 0%;
+    left: 115%;
+    text-align: center;
+    color: #d6dfe0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
 }
