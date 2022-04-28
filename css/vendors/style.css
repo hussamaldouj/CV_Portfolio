@@ -106,7 +106,7 @@ body {
     position: absolute;
     width: 400px;
     top: 5%;
-    height: -webkit-fill-available;
+    height: auto;
     left: 53%;
     text-align: center;
     color: #d6dfe0;
