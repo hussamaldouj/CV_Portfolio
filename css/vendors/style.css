@@ -76,29 +76,29 @@ body {
     box-shadow: -4px -4px 10px #0f0b0ef8 ;
 }
 .container {
-    background: #5a08615d;
-    width: -webkit-fill-available;
-    min-height: -webkit-fill-available;
-    position: fixed;
+    background: #0f03105d;
+    width: 98%;
+    min-height: 81%;
+    position: absolute;
     top: 16%;
+    left: 1%;
     display: flex;
     flex-wrap: wrap;
     box-shadow: -4px -4px 10px #0f0b0ef8;
 }
 .container .sec_1{
-    display: block;
-
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 50%;
     top: 0%;
+    background-color: #211d38c2;
 }
 .content_img {
-    background: #9607a3;
+    background: #291b2a69;
     width: 280px;
     height: 160px;
     position: absolute;
-    top: 10%;
+    top: 15%;
     LEFT: 5%;
     border-top-left-radius: 125px;
     border-bottom-right-radius: 125px;
@@ -140,8 +140,8 @@ body {
     align-items: flex-start;
     flex-wrap: nowrap;
 }
-.content .btn_1{
-    background-color: #66818166;
+.content .btn_1,.content .btn_2{
+    background-color: #233a3a66;
     border-radius: 5px;
     padding: 10px;
     height: max-content;
@@ -158,20 +158,22 @@ body {
     color: rgb(243, 12, 101);
     text-decoration: none;
 }
-.content .btn_2{
-    background-color: #66818166;
-    border-radius: 5px;
-    color: rgb(243, 12, 101);
-    padding: 10px;
-    height: max-content;
-    width: max-content;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 18px;
+.container .sec_2{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    background-color: #3104345d;
+}
+.container .sec_2 p{
+    text-align: center;
+    color: #d6dfe0;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 @media (max-width:880px){
     .dropdown-content {
         margin: 0px;
@@ -183,6 +185,7 @@ body {
     }
     .container .sec_1{
         top: 0%;
+        height: 100%;
     }
     #fa_2 {
         position: absolute;
@@ -204,5 +207,8 @@ body {
         top: 35%;
         left: 10%;
         width: 350px;
+    }
+    .container .sec_2 {
+        top: 85%;
     }
 }
