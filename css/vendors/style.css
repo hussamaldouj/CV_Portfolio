@@ -95,13 +95,14 @@ body {
 }
 .container .sec_1 .content_img {
     background: #291b2a69;
-    width: 280px;
-    height: 160px;
+    width: 157px;
+    height: 157px;
     position: absolute;
-    top: 15%;
-    LEFT: 5%;
-    border-top-left-radius: 125px;
-    border-bottom-right-radius: 125px;
+    top: 16%;
+    LEFT: 15%;
+    border-top-left-radius: 180px;
+    border-bottom-right-radius: 180px;
+    border-top-right-radius: 190px;
     box-shadow: -4px -4px 10px #0f0b0ef8;
     transition: 6s;
 }
@@ -110,8 +111,8 @@ body {
     height: 150px;
     border-radius: 125px;
     position: absolute;
-    top: 10px;
-    left: 80px;
+    top: 0px;
+    left: 11px;
     transition-duration: 6s;
 }
 .container .sec_1 .content{
@@ -136,6 +137,31 @@ body {
 display: inline-block;
 letter-spacing: 10px;
 margin-top: 20px;
+}
+.container .content .icon i{
+    font-size: 30px;
+    color: #b810c7;
+    padding-left: 9px;
+}
+.container .content .icon a{
+    border-style:solid;
+    border-width: 2px;
+    border-color: #b810c7;
+    padding-top: 12px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    height: 35px;
+    display: inline-block;
+}
+.container .content .icon a:hover{
+    background-color:aliceblue;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
 }
 .container .sec_2{
     position: absolute;
@@ -203,7 +229,7 @@ margin-top: 20px;
         height: 100%;
     }
     .container .sec_1 .content_img {
-        left: 20%;
+        left: 35%;
         margin-top: 10px;
         top: auto;
     }
