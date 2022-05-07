@@ -105,16 +105,16 @@ body {
     position: absolute;
     width: 100%;
     /*height: 50%;*/
-    height: 10%;
+    height: 17%;
     top: 0%;
     background-color: #211d38c2;
 }
 .container .sec_1 .content_img {
     background: #291b2a69;
-    width: 157px;
-    height: 157px;
+    width: 203px;
+    height: 222px;
     position: absolute;
-    top: 16%;
+    top: 22%;
     left: 15%;
     border-top-left-radius: 180px;
     border-bottom-right-radius: 180px;
@@ -124,7 +124,7 @@ body {
 }
 .container .sec_1 .content_img .img_hussam {
     width: min-content;
-    height: 150px;
+    height: 210px;
     border-radius: 125px;
     position: absolute;
     top: 0px;
@@ -132,14 +132,14 @@ body {
     transition-duration: 6s;
 }
 .container .sec_1 .content{
-    position: relative;
+    position: absolute;
     width: 385px;
-    top: 5%;
+    top: 25%;
     height: auto;
     left: 53%;
     text-align: center;
     color: #d6dfe0;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -182,7 +182,7 @@ margin-top: 20px;
     position: absolute;
     width: 99%;
     height: 14%;
-    top: 11%;
+    top: 18%;
     padding: 5px;
     background-color: #3104345d;
     /*background-color: #8f0799;*/
@@ -280,7 +280,7 @@ margin-top: 20px;
     }
     .container .sec_1{
         top: 0%;
-        height: 15%;
+        height: 20%;
     }
     .container .sec_1 .content_img {
         left: 35%;
@@ -288,11 +288,11 @@ margin-top: 20px;
         top: auto;
     }
     .container .sec_1 .content{
-        top: 40%;
-        left: 10%;
+        top: 55%;
+        left: 20%;
         width: 350px;
     }
     .container .sec_2 {
-        top: 85%;
+        top: 21%;
     }
 }
