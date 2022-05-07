@@ -42,7 +42,7 @@ body {
     margin-left: 0%;
     position: relative;
     left: 30%;
-    z-index: 9999;
+    z-index: 9999; 
 }
 .dropdown-content {
     margin: 2px;
@@ -65,9 +65,6 @@ body {
     margin-left: 15px;
     padding:5px;
 }
-#fa_2{
-     display: none;
-    }
 .dropdown-content a:hover{
     background-color: rgba(182, 7, 80, 0.795);
     border-radius: 13px;
@@ -75,10 +72,28 @@ body {
     opacity: 0.6;
     box-shadow: -4px -4px 10px #0f0b0ef8 ;
 }
+.droptoggle{
+    display: none;
+    background-color: #b810c7;
+    width: 28px;
+    border-radius: 23%;
+    height: 28px;
+    position: absolute;
+    top: 30px;
+    z-index: 9999;
+    -webkit-border-radius: 23%;
+    -moz-border-radius: 23%;
+    -ms-border-radius: 23%;
+    -o-border-radius: 23%;
+}
+/*#h_3:hover >.droptoggle{
+    display: flex;
+}*/
+
 .container {
     background: #0f03105d;
     width: 98%;
-    min-height: 81%;
+    height: 150em;
     position: relative;
     top: 5%;
     left: 1%;
@@ -89,7 +104,8 @@ body {
 .container .sec_1{
     position: absolute;
     width: 100%;
-    height: 50%;
+    /*height: 50%;*/
+    height: 10%;
     top: 0%;
     background-color: #211d38c2;
 }
@@ -99,7 +115,7 @@ body {
     height: 157px;
     position: absolute;
     top: 16%;
-    LEFT: 15%;
+    left: 15%;
     border-top-left-radius: 180px;
     border-bottom-right-radius: 180px;
     border-top-right-radius: 190px;
@@ -132,7 +148,6 @@ body {
     color: #668181;
     margin-bottom: 0px;
 }
-
 .container .content .icon{
 display: inline-block;
 letter-spacing: 10px;
@@ -163,12 +178,49 @@ margin-top: 20px;
     -ms-transition: all 2s;
     -o-transition: all 2s;
 }
-.container .sec_2{
+.sec_2{
     position: absolute;
+    width: 99%;
+    height: 20%;
+    top: 11%;
+    padding: 5px;
+   /* background-color: #3104345d;*/
+    background-color: #8f0799;
+}
+ .About{
+    position: relative;
     width: 100%;
     height: 50%;
-    top: 50%;
-    background-color: #3104345d;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #668181;
+
+}
+.container .sec_2 .About h3{
+    border-style:solid;
+    border-width: 2px;
+    border-color: #b810c7;
+    border-radius: 5px;
+    text-align: center;
+    width: 75px;
+    height: 30px;
+    display: inline-block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    left: 45%;
+    top: 10px;
+    color: aliceblue;
+    position: relative;
+}
+.container .sec_2 .about_logo {
+    width: min-content;
+    height: 150px;
+    border-radius: 25px;
+    position: absolute;
+    top: 50px;
+    left: 75%;
+    box-shadow: -4px -4px 10px #0f0b0ef8;
 }
 .container .sec_2 p{
     text-align: center;
@@ -177,13 +229,17 @@ margin-top: 20px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    width: 500px;
+    height: min-content;
 }
 .container .sec_2 .btn{
-    display: flex;
-    flex-direction: row;
-    width: max-content;
-    align-items: flex-start;
-    flex-wrap: nowrap;
+    height: min-content;
+    position: absolute;
+    top: 20%;
+    left: 10%;
 }
 .sec_2 .btn_1,.sec_2 .btn_2{
     background-color: #233a3a66;
@@ -198,26 +254,25 @@ margin-top: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-right: 5px;
+    display: inline-block;
 }
 .sec_2 .btn_1 a, .sec_2 .btn_2 a{
     color: rgb(243, 12, 101);
     text-decoration: none;
 }
-
-@media (max-width:880px){
+@media (max-width:950px){
     .dropdown-content {
         margin: 0px;
         display:block;
         top: 0px;
     }
+    .droptoggle{
+        display: inline-block;
+        left: 90%;
+    }
     .header .dropdown {
         top: 70px;
-    }
-    #fa_2 {
-        position: absolute;
-        top: 28px;
-        left: 85%;
-        display: inline-block;
+        left: 10%;
     }
     .container {
         position: relative;
@@ -226,7 +281,7 @@ margin-top: 20px;
     }
     .container .sec_1{
         top: 0%;
-        height: 100%;
+        height: 15%;
     }
     .container .sec_1 .content_img {
         left: 35%;
