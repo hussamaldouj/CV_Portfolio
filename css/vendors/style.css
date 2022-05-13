@@ -108,46 +108,53 @@ body {
     flex-wrap: wrap;
     box-shadow: -4px -4px 10px #0f0b0ef8;
 }
-/*start section 1*/
 .sec_1,.sec_2,.sec_3{
     position: absolute;
     width: 100%;
-    /*height: 50%;*/
-    height: 20%;
-    top: 0%;
-    margin-top: 20px;
+    height: 17%;
     background-color: #211d38c2;
 }
-.sec_2{
-    top: 21%;
-}
-.sec_3{
-    top:42%;
-}
-.content_img {
-    background: #291b2a69;
-    width: 260px;
-    height: 280px;
-    position: relative;
+.sec_2 h2,.sec_3 h3{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #983fbd;
+    text-align: center;
+    width: auto;
+    padding: 8px;
     display: inline-block;
-    top: 18%;
-    left: 60%;
-    border-top-left-radius: 180px;
-    border-bottom-right-radius: 180px;
-    border-top-right-radius: 190px;
+    color: aliceblue;
+    position: absolute;
+}
+/*end container*/
+/*start section 1*/
+.sec_1{
+    top: 0%;
+    margin-top: 20px;
+}
+.back_img {
+    background: #883293;
+    width: 251px;
+    height: 251px;
+    position: relative;
+    top: 20%;
+    right: 15%;
+    float: right;
+    border-radius: 50%;
     box-shadow: -4px -4px 10px #0f0b0ef8;
-    transition: 3s ;
+    transition: 3s;
 }
 .img_hussam {
     width: min-content;
-    height: 270px;
-    border-radius: 125px;
+    height: 288px;
+    border-radius: 50%;
     position: absolute;
-    top: 0px;
-    left: 11px;
+    top: -35px;
+    left: -2px;
+    display: inline-block;
     transition: 3ms;
 }
-
 .content{
     position: absolute;
     top: 12%;
@@ -174,6 +181,7 @@ body {
     font-weight: bold;
     padding: 10px 30px;
     width: 105px;
+    position: relative;
 }
 .content h3{
     color: #668181;
@@ -226,47 +234,26 @@ body {
 }
 /*end section 1*/
 /*start section 2*/
-
-.sec_2 h2,.sec_3 h1{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: #983fbd;
-    text-align: center;
-    width: auto;
-    padding: 8px;
-    display: inline-block;
-    color: aliceblue;
-    position: absolute;
+.sec_2{
+    top: 18%;
+    margin-top: 10px;
 }
+
 .sec_2 h2{
     left: 45%;
     top: 10px;
 }
-.sec_3 h1{
-    left: 15%;
-    top: 10px;
-}
+
 .about_logo {
     width:350px;
     border-radius: 25px;
     position: relative;
-    top: 90px;
-    left: 60%;
     box-shadow: -4px -4px 10px #0f0b0ef8;
-    transform: scale3d(1,1,1);
-    -webkit-transform: scale3d(1,1,1);
-    -moz-transform: scale3d(1,1,1);
-    -ms-transform: scale3d(1,1,1);
-    -o-transform: scale3d(1,1,1);
-    transition: 6s;
-    -webkit-transition: 6s;
-    -moz-transition: 6s;
-    -ms-transition: 6s;
-    -o-transition: 6s;
+    top: 90px;
+    right: 5%;
+    float: right;
+    transition: 2s ;
 }
-
 .sec_2 p{
     text-align: center;
     color: #d6dfe0;
@@ -305,18 +292,72 @@ body {
     color: rgb(243, 12, 101);
     text-decoration: none;
 }
-
-
-
-
 /*end section 2*/
+/*start section 3*/
+.sec_3{
+    position: relative;
+    top:36%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #883293;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.cont_1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 49%;
+    height: 100%;
+    background-color: #233a3a66;
+    border-radius: 25px;
+    box-shadow: -4px -4px 10px #0f0b0ef8;
+    display: inline;
+}
+.cont_2{
+    position: absolute;
+    top: 0%;
+    left: 51%;
+    width: 49%;
+    height: 100%;
+    background-color: #33233a66;
+    border-radius: 25px;
+    box-shadow: -4px -4px 10px #0f0b0ef8;
+    display: block;
+}
+
+.cont_1 h3{
+    left: 30%;
+    position: absolute;
+    top: 10px;
+}
+.cont_2 h3{
+    left: 30%;
+    top: 10px;
+}
+.info_skills{
+    background-color: #10c7c7;
+    border-radius: 25px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    box-shadow: -4px -4px 10px #0f0b0ef8;
+}
+/*end section 3*/
 
 @media (max-width:950px){
-    .dropdown-content {
-        margin: 0px;
-        display:block;
-        top: 0px;
-    }
+
     .header{
       position: relative;
     }
@@ -333,6 +374,12 @@ body {
         height: 260px;
         width: 95%;
         box-shadow: -4px -4px 10px #160d1473, 4px 4px 10px;
+    }
+    .dropdown-content {
+        padding-bottom: 0px;
+        display: inline-block;
+        top: -5px;
+        left: 35%;
     }
     .header #menuIcon {
         display: inline-flex;
@@ -357,50 +404,71 @@ body {
     #menuIcon .middle {
         transform-origin: center;
     }
+    /*start container*/
     .container {
         position: relative;
         top: 55%;
         margin-top: 20px;
     }
-    .container .sec_1 .content_img {
-        left: 22%;
-        margin-top: 10px;
-        top: auto;
+    .sec_1{
+        top: 9%;
+        height: 20%;
     }
-    .container .sec_1{
-        top: 0%;
+    .sec_2 {
+        top: 30%;
         height: 30%;
     }
-
-    .container .sec_1 .content{
+    .sec_3 {
+        top: 61%;
+    }
+    /*end container*/
+    /*start section 1*/
+    .back_img {
+        top: 5%;
+        left: 28%;
+        float: left;
+    }
+    .content{
         top: 40%;
         left: 0%;
         width: 100%;
     }
-    .container .sec_1 .content p{
-        top: 0%;
-        width: 100%;
+    .content h4 {
+        left: 10%;
+        top: 10px;
     }
-    .container .sec_1 .btn{
-        top: 0%;
-        left: 0%;
+    .icon{
+        top: 65%;
+        left: 15%;
     }
-    .container .sec_2 {
-        top: 31%;
-        height: 35%;
+    /*end section 1*/
+    /*start section 2*/
+    .sec_2 .btn{
+        top: 90%;
+        left: 12%;
     }
     .sec_2 h1{
         left: 30%;
     }
     .about_logo {
         top: 110px;
-        left: 20%;
+        left: 13%;
+        float: left;
     }
     .sec_2 p{
-        top: 50%;
-        left: 15%;
+        top: 55%;
+        left: 0%;
+        width: 99%;
     }
-    .container .sec_2 .icon{
-        top: 35%;
+/*end section 2*/
+/*start section 3*/
+    .cont_1 h1{
+        left: 27%;
+        top: 10px;
     }
+    .cont_2 h1{
+        left: 25%;
+        top: 40%;
+    }  
+    /*end section 3*/
 }
