@@ -302,7 +302,7 @@ body {
         right: 33%;
     }
   }
-    @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
         .col_12 .about_logo{
             right: 27%;
         }
@@ -315,7 +315,6 @@ body {
     .col_12 .about_logo{
         right: 12%;
     }
-
     }
 .about{
     top: 5%;
@@ -380,12 +379,34 @@ body {
     float: right;
     transition: 2s ;
 }
-
-
 /*end section 2*/
 /*start section 3*/
+@media only screen and (max-width: 991px){
 
+  }
+@media only screen and (max-width: 768px){
 
+}
+@media only screen and (max-width: 575px){
+.col_12 .skills{
+    right: 30%;
+    }
+}
+.skills{
+    top: 5%;
+    right: 43%;
+    display: inline-block;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #983fbd;
+    text-align: center;
+    width: 165px;
+    padding: 8px;
+    color: aliceblue;
+}
 /*end section 3*/
 
 
