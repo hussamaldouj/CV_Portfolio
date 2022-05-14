@@ -356,7 +356,7 @@ body {
 }
 /*end section 3*/
 
-@media (max-width:950px){
+@media (max-width:991px){
 
     .header{
       position: relative;
@@ -425,8 +425,7 @@ body {
     /*start section 1*/
     .back_img {
         top: 5%;
-        left: 28%;
-        float: left;
+        margin: auto 8%;
     }
     .content{
         top: 40%;
