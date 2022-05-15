@@ -157,7 +157,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     height: 14%;
-    background-color: #2808ddef;
+    background-color: #211d38c2;
     margin-top: 19px;
     padding: 20px;
 }
@@ -167,7 +167,6 @@ body {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    background-color: #883293;
 }
 @media only screen and (max-width: 991px){
   .container{
@@ -228,7 +227,7 @@ body {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 0px;
-    background-color: #983fbd;
+    background-color: #3f43bdc7;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 1px;
@@ -261,13 +260,13 @@ body {
 }
 .icon i{
     font-size: 30px;
-    color: #b810c7;
+    color: #3f43bdc7;
     padding-left: 9px;
 }
 .icon a{
     border-style:solid;
     border-width: 2px;
-    border-color: #b810c7;
+    border-color: #3f43bdc7;
     padding-top: 12px;
     padding-bottom: 2px;
     border-radius: 5px;
@@ -289,10 +288,13 @@ body {
 /*start section 2*/
 @media only screen and (max-width: 991px){
     .col_12 .about{
-    left: 40%;
+    left: 35%;
     }
     .col_12 .info_about{
-    top: 25%;
+        top: 20%;
+        padding: 0px;
+        margin-left: 10px;
+        width: 95%;
     }
     .col_12 .btn{
         left: 25%;
@@ -309,7 +311,7 @@ body {
 }
 @media only screen and (max-width: 575px){
     .col_12 .btn{
-        left: 15%;
+        left: 13%;
         bottom: 7%;
     }
     .col_12 .about_logo{
@@ -318,17 +320,17 @@ body {
     }
 .about{
     top: 5%;
-    right: 15px;
+    right: -75px;
     display: inline-block;
     position: absolute;
-    border-top-left-radius: 20px; 
-    border-top-right-radius: 0px; 
-    border-bottom-right-radius: 20px; 
-    border-bottom-left-radius: 20px; 
-    background-color: #983fbd;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    background-color: #bd3f96c7;
     text-align: center;
-    width: 90px;
-    padding: 8px;
+    width: 158px;
+    padding: 12px;
     color: aliceblue;
 }
 .info_about{
@@ -351,7 +353,7 @@ body {
     display: inline-block;
 }
 .row .btn_1,.row .btn_2{
-    background-color: #233a3a66;
+    background-color: #3f43bdc7;
     border-radius: 5px;
     padding: 10px;
     height: max-content;
@@ -366,7 +368,7 @@ body {
     display: inline-block;
 }
 .row .btn_1 a, .row .btn_2 a{
-    color: rgb(243, 12, 101);
+    color: aliceblue;
     text-decoration: none;
 }
 .about_logo {
@@ -393,7 +395,7 @@ body {
     }
 }
 .skills{
-    top: 5%;
+    top: 15%;
     right: 43%;
     display: inline-block;
     position: absolute;
@@ -401,11 +403,67 @@ body {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: #983fbd;
+    background-color: #3f43bdc7;
     text-align: center;
     width: 165px;
     padding: 8px;
     color: aliceblue;
+}
+.info_skills {
+    top: 25%;
+    display: inline-block;
+    left: 50px;
+    width: 80%;
+    height: 11px;
+    margin-top: 25px;
+    position: relative;
+    background-color: #595a8bc7;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.candidatos .parcial {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+.candidatos .parcial .info {
+    position: relative;
+    margin-top: -42px;
+}
+.info_skills .candidatos .parcial .progressBar {
+    background: rgba(199, 198, 198, 0.6);
+}
+.candidatos .parcial .info .nome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3f43bdc7;
+}
+.candidatos .parcial .info .percentagem-num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #bd3f9dc7;
+}
+.candidatos .parcial .percentagem {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #10c7c7;
+
 }
 /*end section 3*/
 
