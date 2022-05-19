@@ -1,0 +1,93 @@
+/*start section 2*/
+.info_about{
+    text-align: center;
+    color: #d6dfe0;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: block;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 100%;
+}
+.btn{
+    height: min-content;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    display: inline-block;
+}
+.row .btn_1,.row .btn_2{
+    background-color: #3f43bdc7;
+    border-radius: 5px;
+    padding: 10px;
+    height: max-content;
+    width: max-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.row .btn_1 a, .row .btn_2 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.about_logo {
+    width:425px;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: -4px -4px 10px #0f0b0ef8;
+    top: 0%;
+    right: 10%;
+    float: right;
+    transition: 2s ;
+}
+/*end section 2*/
+/*end media query*/
+@media only screen and (max-width: 991px){
+    .col_12 .about{
+        left: 33%;
+    }
+    .col_12 .info_about{
+        top: 20%;
+        padding: 0px;
+        margin-left: 10px;
+        width: 95%;
+    }
+    .col_12 .btn{
+        left: 25%;
+        bottom: 7%;
+    }
+    .col_12 .about_logo{
+        right: 22%;
+        top:20px
+    }
+}
+@media only screen and (max-width: 768px){
+    .col_12 .about_logo{
+        right: 14%;
+    }
+    .col_12 .about{
+        left: 31%;
+    }
+    .col_12 .btn{
+        left: 15%;
+    }
+}
+@media only screen and (max-width: 575px){
+    .col_12 .btn{
+        left: 7%;
+        bottom: 7%;
+    }
+    .col_12 .about_logo{
+        right: 0%;
+    }
+    .col_12 .info_about{
+        top:10%;
+    }
+}

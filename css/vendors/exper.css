@@ -1,0 +1,115 @@
+/*start section 4*/
+
+#Exper{
+    height: auto;
+}
+#Exper #col_Exper{
+    background-color: blue;
+}
+.timeline{
+    height: 800px;
+    position: relative;
+    top: 125px;
+}
+.timeline ul {
+    line-height: 40px;
+    padding-top: 13px;
+    height: 80%;
+    top: 0px;
+    background-color: aqua;
+    position: relative;
+    margin-block-start: 0px;
+  }
+.timeline .timeline-pops {
+    position: relative;
+    display: flex;
+    gap:5px;
+  }
+.timeline li {
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-left: -40px;
+    position: relative;
+  }
+  .timeline .timeline-pops{
+    border-radius: 20px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    padding: 25px;
+    color: #272727;
+    border: #fff 4px solid;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 10px;
+    position: relative;
+    align-items: center;
+}
+.timeline li:nth-child(odd) {
+    float:left;
+    clear: right;
+    list-style: none;
+  }
+    .timeline li:nth-child(even) {
+        list-style: none;
+        float:right;
+        clear: left;
+
+    } 
+.timeline .timeline-pops h2:nth-child(odd) {
+    color: #278cff;
+    font: bold 15px "Ubuntu";
+    text-align: center;
+  }
+  .timeline .timeline-pops h2:nth-child(even) {
+    color: #278cff;
+    font: bold 17px "Ubuntu";
+    text-align: center;
+  }
+ .timeline .timeline-pops p {
+    font: 600 13px "Ubuntu";
+    text-align: center;
+  }
+
+.timeline li:nth-child(1)::before {
+    content: "2006";
+    position: absolute;
+    color: #fff;
+    right: -65px;
+    top: 7px;
+    font-weight: bold;
+  }
+  .timeline li:nth-child(2)::before {
+    content: "2012";
+    position: absolute;
+    left: -75px;
+    top: 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+.timeline li:nth-child(3)::before {
+    content: "2014";
+    position: absolute;
+    right: -65px;
+    top: 7px;
+    color: #fff;
+    font-weight: bold;
+  }
+.timeline li:nth-child(4)::before {
+    content: "2014";
+    position: absolute;
+    left: -75px;
+    top: 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+  /*end media query*/
+@media only screen and (max-width: 991px){
+    #Exper .col_12{
+        height: auto;
+    }
+}
+@media only screen and (max-width: 768px){
+}
+@media only screen and (max-width: 575px){
+}
