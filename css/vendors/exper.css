@@ -3,9 +3,6 @@
 #Exper{
     height: 845px;
 }
-#Exper #col_Exper{
-    background-color: blue;
-}
 .timeline{
     height: 80%;
       position: relative;
@@ -34,9 +31,8 @@
   .timeline .timeline-pops{
     border-radius: 20px;
     margin-bottom: 0px;
-    background-color: #ffffff;
     padding: 25px;
-    color: #272727;
+    color:#10c7c7 ;
     border: #fff 4px solid;
     display: flex;
     flex-direction: row;
@@ -57,12 +53,12 @@
 
     } 
 .timeline .timeline-pops h2:nth-child(odd) {
-    color: #278cff;
+    color: #bd3f9dc7;
     font: bold 15px "Ubuntu";
     text-align: center;
   }
   .timeline .timeline-pops h2:nth-child(even) {
-    color: #278cff;
+    color: #bd3f9dc7;
     font: bold 17px "Ubuntu";
     text-align: center;
   }
@@ -138,7 +134,6 @@
 .timelines{
   position: relative;
   top: 145px;
-  background-color: red;
 }
 .timelines-item:first-child {
   padding-top: 3px;
@@ -192,6 +187,7 @@
 .timelines-item .item-title {
   font-size: 16px;
   margin: 10px 65px 7px;
+  color: #bd3f9dc7;
 }
 .timelines-item .text {
   font-size: .92em;
@@ -199,6 +195,7 @@
   margin-block-end: 17px;
 margin-left: 15%;
   display: inline-block;
+  color:#10c7c7 ;
 }
   /*end media query*/
 @media only screen and (max-width: 991px){
@@ -215,7 +212,7 @@ margin-left: 15%;
   }
   .col_12 .timelines{
     height: 606px;
-    top:125px
+    top:110px
 }
 
 }
