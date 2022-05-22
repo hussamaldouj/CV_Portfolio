@@ -29,11 +29,11 @@
     position: relative;
   }
   .timeline .timeline-pops{
-    border-radius: 20px;
+border-radius: 15px;
     margin-bottom: 0px;
-    padding: 25px;
-    color:#10c7c7 ;
-    border: #fff 4px solid;
+    padding: 31px;
+    color: #10c7c7;
+    border: #fff 1px solid;
     display: flex;
     flex-direction: row;
     width: 250px;
@@ -54,12 +54,12 @@
     } 
 .timeline .timeline-pops h2:nth-child(odd) {
     color: #bd3f9dc7;
-    font: bold 15px "Ubuntu";
+    font: bold 18px "Ubuntu";
     text-align: center;
   }
   .timeline .timeline-pops h2:nth-child(even) {
     color: #bd3f9dc7;
-    font: bold 17px "Ubuntu";
+    font: bold 18px "Ubuntu";
     text-align: center;
   }
  .timeline .timeline-pops p {
@@ -133,7 +133,7 @@
   }
 .timelines{
   position: relative;
-  top: 145px;
+  top: 125px;
 }
 .timelines-item:first-child {
   padding-top: 3px;
@@ -201,7 +201,7 @@ margin-left: 15%;
 @media only screen and (max-width: 991px){
 
     #Exper{
-      height: 1600px;
+      height: 1850px;
   }
   .col_12 .timeline{
       height: 775px;
@@ -214,9 +214,20 @@ margin-left: 15%;
     height: 606px;
     top:110px
 }
-
+.timelines-item:before {
+  height: 100%;
+  bottom: -23px;
+}
 }
 @media only screen and (max-width: 768px){
+  .timelines-item:before {
+    height: 106%;
+    bottom: -63px;
+}
 }
 @media only screen and (max-width: 575px){
+  .timelines-item:before {
+    height: 117%;
+    bottom: -107px;
+}
 }
