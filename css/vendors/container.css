@@ -4,6 +4,8 @@
     height: auto;
     position: relative;
     top: 10px;
+    width: 90%;
+    left: 5%;
    box-shadow: -4px -4px 10px #0f0b0ef8;
 }
 .row {
@@ -55,7 +57,7 @@
 /*end container*/
 @media only screen and (max-width: 991px){
     .container{
-    top: 100px;
+    top: -305px;
 }
 .row {
    margin-top: 19px;
