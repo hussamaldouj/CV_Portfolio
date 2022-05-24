@@ -6,7 +6,7 @@
 .timeline{
     height: 80%;
       position: relative;
-    top: 125px;
+    top: 110px;
 
 }
 .timeline ul {
@@ -133,7 +133,7 @@ border-radius: 15px;
   }
 .timelines{
   position: relative;
-  top: 125px;
+  top: 110px;
 }
 .timelines-item:first-child {
   padding-top: 3px;
