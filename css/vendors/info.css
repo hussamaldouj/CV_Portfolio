@@ -21,7 +21,30 @@
     float: right;
     border-radius: 50%;
     box-shadow: -4px -4px 10px #0f0b0ef8;
-    transition: 3s;
+}
+#info_home:hover .back_img {
+    animation: x;
+    animation-duration: 2s;
+}
+@keyframes x {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+#info_home:hover #col_home {
+    animation: y;
+    animation-duration: 6s;
+} 
+@keyframes y {
+    0% {
+        left: -500px;
+    }
+    20% {
+        left: 0px;
+    }
 }
 .img_hussam {
     width: min-content;
@@ -31,8 +54,8 @@
     top: -36px;
     left: -4px;
     display: inline-block;
-    transition: 3ms;
     width: -moz-fit-content;
+    transition: 2s;
 }
 .wel{
     color: #d6dfe0;

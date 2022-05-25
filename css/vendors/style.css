@@ -69,15 +69,14 @@ body {
     margin-top: 5px;
     margin-left: 15px;
     padding:5px;
+    transition:  border-bottom-color 1s ,border-bottom-style 2s;
 }
-.dropdown-content a:hover{
-    background-color: rgba(182, 7, 80, 0.795);
-    border-radius: 13px;
-    list-style: none;
-    transition: 0.9s;
+.dropdown li a:hover{
+    border-bottom-color: #b810c7 ;
+    border-bottom-style:solid;
     z-index: 999; 
-    box-shadow: -4px -4px 10px #0f0b0ef8 ;
 }
+
 .icon_mobile{
     display: none;
 }

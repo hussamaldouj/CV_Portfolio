@@ -1,1 +1,40 @@
-
+#Port_folio  {
+    background: url(/img/1\ \(59\).jpg) no-repeat center center fixed;
+  }
+  #Port_folio::before  {
+    content: "";;
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 99%;
+    height: 14%;
+    position: absolute;
+    background-color: #0b1116ea;
+  }
+  #Port_folio .sticker{
+    margin-left: 8%;
+    margin-top: 5%;
+      width: 40%;
+      height: 40%;
+      position:relative;
+      display: inline-block;
+  }
+  #Port_folio .sticker:hover{
+    background-image: url(/img/1\ \(7\).png);
+    border-left-style:solid;
+    transition: 0.9s;
+  }
+  #Port_folio .sticker:nth-child(1){
+    background-color:  #0000ff3b;;
+  }
+  #Port_folio .sticker:nth-child(2){
+    background-color: #00ffff69;
+  }
+  #Port_folio .sticker:nth-child(3){
+    background-color: #8a2be23d;
+  }
+  #Port_folio .sticker:nth-child(4){
+    background-color: #a52a2a7a;
+  }
+  #Port_folio .sticker:nth-child(5){
+    background-color: #a05f9e9e;
+  }

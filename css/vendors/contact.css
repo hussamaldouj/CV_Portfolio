@@ -1,3 +1,29 @@
 #contact  {
   background: url(/img/map-color-overlay.png) no-repeat center center;
 }
+#contact .sticker{
+    width: 50%;
+    height: 20%;
+    position:relative;
+    
+}
+#contact .sticker:hover{
+  margin-left: 16px;
+  border-left-style: dashed;
+  transition: 0.9s;
+}
+#contact .sticker:nth-child(1){
+  background-color:  #0000ff3b;;
+}
+#contact .sticker:nth-child(2){
+  background-color: #00ffff69;
+}
+#contact .sticker:nth-child(3){
+  background-color: #8a2be23d;
+}
+#contact .sticker:nth-child(4){
+  background-color: #a52a2a7a;
+}
+#contact .sticker:nth-child(5){
+  background-color: #a05f9e9e;
+}
