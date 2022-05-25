@@ -1,5 +1,5 @@
 #Port_folio  {
-    background: url(/img/1\ \(59\).jpg) no-repeat center center fixed;
+    background: url(/img/1\ \(58\).png) no-repeat center center fixed;
   }
   #Port_folio::before  {
     content: "";;
@@ -8,33 +8,50 @@
     width: 99%;
     height: 14%;
     position: absolute;
-    background-color: #0b1116ea;
+    background-color: #0b11162f;
   }
-  #Port_folio .sticker{
-    margin-left: 8%;
-    margin-top: 5%;
+  #Port_folio .col_6 .sticker_1{
+      margin-left: 35%;
+      margin-top: 5%;
       width: 40%;
       height: 40%;
+      color: antiquewhite;
+      text-align: center;
       position:relative;
       display: inline-block;
   }
-  #Port_folio .sticker:hover{
-    background-image: url(/img/1\ \(7\).png);
-    border-left-style:solid;
+  #Port_folio .col_6 .sticker_2{
+    margin-left: 35%;
+    margin-top: 5%;
+    width: 40%;
+    height: 40%;
+    color: antiquewhite;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+}
+  #Port_folio .sticker_1:nth-child(1){
+      background: url(/img/1\ \(20\).png)no-repeat center center ;
+      background-size: cover;
+  }
+  #Port_folio .sticker_1:nth-child(1):hover{
+    background: url(/img/data.png) no-repeat center center ;
+    margin-left: 1%;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
     transition: 0.9s;
   }
-  #Port_folio .sticker:nth-child(1){
-    background-color:  #0000ff3b;;
+ 
+  #Port_folio .sticker_2:nth-child(1){
+    background: url(/img/1\ \(7\).png)no-repeat center center ;
+    background-size: cover;
   }
-  #Port_folio .sticker:nth-child(2){
-    background-color: #00ffff69;
-  }
-  #Port_folio .sticker:nth-child(3){
-    background-color: #8a2be23d;
-  }
-  #Port_folio .sticker:nth-child(4){
-    background-color: #a52a2a7a;
-  }
-  #Port_folio .sticker:nth-child(5){
-    background-color: #a05f9e9e;
+  #Port_folio .sticker_2:nth-child(1):hover{
+    background: url(/img/1\ \(19\).png) no-repeat center center ;
+    margin-left: 1%;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    transition: 0.9s;
   }

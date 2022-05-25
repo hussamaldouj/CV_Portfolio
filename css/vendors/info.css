@@ -1,4 +1,17 @@
 /*start section 1*/
+#info_home {
+    background: url(/img/1\ \(79\).jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  #info_home::before  {
+    content: "";;
+    margin-top: 0px;
+    margin-left: -20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #0b1116bd;
+  }
 .img_wel{
     width: 450px;
     top: 100px;

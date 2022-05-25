@@ -11,12 +11,12 @@
     display: flex;
     flex-wrap: nowrap;
     height: 500px;
-    background-color: #211d38c2;
+    background-color: #2b19938e;
     margin-top: 19px;
     padding: 20px;
 }
 .row:nth-child(odd) {
-    background-color: #121a2426;
+    background-color: #796bc7f0;
 }
 .col_6{
     position: relative;
