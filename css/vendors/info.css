@@ -1,16 +1,16 @@
 /*start section 1*/
 #info_home {
-    background: url(/img/1\ \(79\).jpg) no-repeat center center fixed;
+    background: url(/img/Conception-site-web-Desk-450-462.jpg) no-repeat center center fixed;
     background-size: cover;
   }
   #info_home::before  {
     content: "";;
-    margin-top: 0px;
+    margin-top: -20px;
     margin-left: -20px;
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #0b1116bd;
+    background-color: #0b1116ce;
   }
 .img_wel{
     width: 450px;
@@ -47,7 +47,7 @@
         transform: scale(1.1);
     }
 }
-#info_home:hover #col_home {
+/*#info_home:hover #col_home {
     animation: y;
     animation-duration: 6s;
 } 
@@ -58,7 +58,7 @@
     20% {
         left: 0px;
     }
-}
+}*/
 .img_hussam {
     width: min-content;
     height: 291px;

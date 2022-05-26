@@ -1,29 +1,88 @@
 #contact  {
   background: url(/img/map-color-overlay.png) no-repeat center center;
 }
+#contact .col_6{
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 #contact .sticker{
-    width: 50%;
-    height: 20%;
-    position:relative;
-    
+  width: 95%;
+  height: 33%;
+  position: relative;
+  left: 2%;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
-#contact .sticker:hover{
-  margin-left: 16px;
-  border-left-style: dashed;
-  transition: 0.9s;
+.sticker .contact-icon {
+  width: 38%;
+  top: 0px;
+  display: flex;
+  padding: 0px;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-#contact .sticker:nth-child(1){
-  background-color:  #0000ff3b;;
+.contact-icon i {
+  color: #227cfd;
+  font-size: 24px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border: 1px solid;
+  border-radius: 50%;
+  line-height: 70px;
+  font-size: 20px;
+  border-color: #0bceaf;
+
 }
-#contact .sticker:nth-child(2){
-  background-color: #00ffff69;
+.contact-info {
+  width: 50%;
 }
-#contact .sticker:nth-child(3){
-  background-color: #8a2be23d;
+.contact-icon h6 {
+  color: #227cfd;
+  font-size: 18px;
+  position: relative;
+  margin: 6px;
+  letter-spacing: 1px;
+  display: inline-block;
 }
-#contact .sticker:nth-child(4){
-  background-color: #a52a2a7a;
+.contact-info p {
+  color: #C0C6D3;
 }
-#contact .sticker:nth-child(5){
-  background-color: #a05f9e9e;
+.contact-name,.contact-email,.contact-subject{
+  background-color: transparent;
+    border-color: transparent;
+    height: 10%;
+}
+.contact-subject{
+  height: 35%;
+}
+.form-control{
+  display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-contact{
+  background-color: #0bceaf;
+  color: #fff;
+  margin-right: 0px !important;
+  opacity: .65;
+  outline: 0;
+  -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    outline: 0;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 20px;
 }

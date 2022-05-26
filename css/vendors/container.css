@@ -1,23 +1,21 @@
 /*start container*/
 .container {
-    background: #0f03105d;
+    
     height: auto;
     position: relative;
     width: 90%;
     left: 5%;
-   box-shadow: -4px -4px 10px #0f0b0ef8;
+    box-shadow: -4px -4px 10px #160d1473, 4px 4px 10px;
 }
 .row {
     display: flex;
     flex-wrap: nowrap;
     height: 500px;
-    background-color: #2b19938e;
+    background-color: #2b1993b3;
     margin-top: 19px;
     padding: 20px;
 }
-.row:nth-child(odd) {
-    background-color: #796bc7f0;
-}
+
 .col_6{
     position: relative;
     width: 100%;
@@ -27,7 +25,6 @@
     padding-right: 15px;
     padding-left: 15px;
     box-shadow: -4px -4px 10px #160d1473, 4px 4px 10px;
-    /*box-shadow: -4px -4px 10px #0f0b0ef8;*/
 }
 .info_row{
     right: 42%;

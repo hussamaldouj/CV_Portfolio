@@ -8,10 +8,10 @@
     width: 99%;
     height: 14%;
     position: absolute;
-    background-color: #0b11162f;
+    background-color: #0b111609;
   }
   #Port_folio .col_6 .sticker_1{
-      margin-left: 35%;
+      margin-left: 32%;
       margin-top: 5%;
       width: 40%;
       height: 40%;
@@ -21,7 +21,7 @@
       display: inline-block;
   }
   #Port_folio .col_6 .sticker_2{
-    margin-left: 35%;
+    margin-left: 32%;
     margin-top: 5%;
     width: 40%;
     height: 40%;
@@ -31,12 +31,12 @@
     display: inline-block;
 }
   #Port_folio .sticker_1:nth-child(1){
-      background: url(/img/1\ \(20\).png)no-repeat center center ;
-      background-size: cover;
+      background: url(/img/main-image.png)no-repeat center center ;
+      background-size: contain;
   }
   #Port_folio .sticker_1:nth-child(1):hover{
     background: url(/img/data.png) no-repeat center center ;
-    margin-left: 1%;
+    margin-left: 0%;
     background-size: contain;
     width: 100%;
     height: 100%;
@@ -44,12 +44,12 @@
   }
  
   #Port_folio .sticker_2:nth-child(1){
-    background: url(/img/1\ \(7\).png)no-repeat center center ;
-    background-size: cover;
+    background: url(/img/web-design.png)no-repeat center center ;
+    background-size: contain;
   }
   #Port_folio .sticker_2:nth-child(1):hover{
     background: url(/img/1\ \(19\).png) no-repeat center center ;
-    margin-left: 1%;
+    margin-left: 0%;
     background-size: contain;
     width: 100%;
     height: 100%;
