@@ -3,7 +3,7 @@ body {
     background: #191932;
     display: block;
     position: relative;
-    font-family: cursive;
+    font-family:'Times New Roman', Times, serif,cursive;
 }
 
 /*start header*/
