@@ -7,7 +7,7 @@
 .info_skills {
     top: 16%;
     display: inline-block;
-    left: 50px;
+    left: 30px;
     width: 80%;
     height: 11px;
     margin-top: 25px;
@@ -108,5 +108,13 @@
 @media only screen and (max-width: 575px){
     .container #Skills{
         height: 1200px;
+}
+.mh-professional-progress li {
+    width: 49%;
+}
+.mh-professional-progress {
+    position: relative;
+    top: 15%;
+    padding-left: 0px;
 }
 }

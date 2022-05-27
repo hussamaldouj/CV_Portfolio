@@ -86,3 +86,20 @@
     font-weight: bold;
     border-radius: 20px;
 }
+@media only screen and (max-width: 575px){
+  .contact-icon i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.sticker .contact-icon {
+  width: 20%;
+}
+.contact-info {
+  width: 80%;
+}
+.contact-info p {
+  margin-block-start: 0px;
+  margin-block-end: 50px;
+}
+}
