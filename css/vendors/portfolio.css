@@ -1,5 +1,5 @@
 #Port_folio  {
-    background: url(/img/1\ \(58\).png) no-repeat center center fixed;
+    background: url(/img/caver.png) no-repeat center center fixed;
   }
   #Port_folio::before  {
     content: "";;
@@ -48,7 +48,7 @@
     background-size: contain;
   }
   #Port_folio .sticker_2:nth-child(1):hover{
-    background: url(/img/1\ \(19\).png) no-repeat center center ;
+    background: url(/img/bg.png) no-repeat center center ;
     margin-left: 0%;
     background-size: contain;
     width: 100%;

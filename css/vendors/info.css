@@ -1,6 +1,6 @@
 /*start section 1*/
 #info_home {
-    background: url(/img/Conception-site-web-Desk-450-462.jpg) no-repeat center center fixed;
+    background: url(/img/Conception.jpg) no-repeat center center fixed;
     background-size: cover;
   }
   #info_home::before  {
@@ -13,7 +13,7 @@
     background-color: #0b1116ce;
   }
 .col_6 .img_wel{
-    background: url(/img/1-\(4\).png) no-repeat center center;
+    background: url(/img/load.png) no-repeat center center;
     position: absolute;
     z-index: 999;
     display: inline-block;
