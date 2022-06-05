@@ -82,8 +82,7 @@ body {
 }
 /*end header*/
 /*start container*/
-.container {
-    
+.container {  
     height: auto;
     position: relative;
     width: 90%;
@@ -108,6 +107,15 @@ body {
     padding-right: 15px;
     padding-left: 15px;
     box-shadow: -4px -4px 10px #160d1473, 4px 4px 10px;
+}
+.col_6 .code_flex{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .info_row{
     right: 42%;
@@ -138,15 +146,7 @@ body {
     padding: 8px;
     color: aliceblue;
 }
-.col_6 .code_flex{
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+
 /*end container*/
 /*start section 1*/
 #info_home {
@@ -556,7 +556,7 @@ top: 5%;
     background: url(/img/caver.png) no-repeat center center fixed;
   }
   #Port_folio::before  {
-    content: "";;
+    content: "";
     margin-top: -15px;
     margin-left: -15px;
     width: 99%;
