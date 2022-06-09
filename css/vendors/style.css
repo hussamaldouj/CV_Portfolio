@@ -5,7 +5,11 @@ body {
     position: relative;
     font-family:'Times New Roman', Times, serif,cursive;
 }
-
+@keyframes x {
+  0% {
+      transform:translatex(336px);
+  }
+}
 /*start header*/
 .header{
     background: #160d1473;
@@ -18,6 +22,8 @@ body {
     margin-top: 0px;
     box-shadow: -4px -4px 10px #160d1473, 4px 4px 10px;
     backdrop-filter: blur(10px);
+    animation: x;
+    animation-duration: 0.5s;
 }
 .header .img_folio {
     background-color: #9f44a7;
@@ -180,19 +186,10 @@ body {
     position: relative;
     border-radius: 50%;
     box-shadow: -4px -4px 10px #0f0b0ef8;
-}
-#info_home:hover .col_6 .back_img {
     animation: x;
     animation-duration: 2s;
 }
-@keyframes x {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-}
+
 .col_6  .img_hussam {
     width: min-content;
     height: 291px;
