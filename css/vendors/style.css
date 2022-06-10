@@ -191,15 +191,16 @@ body {
 }
 
 .col_6  .img_hussam {
-    width: min-content;
-    height: 291px;
-    border-radius: 50%;
-    position: absolute;
-    top: -36px;
-    left: -4px;
-    display: inline-block;
-    width: -moz-fit-content;
-    transition: 2s;
+  background: url(/img/hussam_2.png) no-repeat;
+  position: relative;
+  width: 98%;
+  left: 5%;
+  bottom: -1%;
+  border-bottom-right-radius: 82%;
+  border-bottom-left-radius: 64%;
+  height: 100%;
+  background-size: contain;
+  transition: 2s;
 }
 .col_6 .wel{
     color: #d6dfe0;
