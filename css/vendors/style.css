@@ -771,18 +771,22 @@ body {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
   .btn-contact{
-    background-color: #0bceaf;
+    --bs-btn-border-width: 0px;
+    --bs-btn-border-color: #0d6d99;
+    background-color: #0d6d99;
+    font-family:'Amiri'!important;
     color: #fff;
+    width: 160px;
+    height: 35px;
+    display: block;
+    font-size: 21px;
+    text-align: center;
     margin-right: 0px !important;
-    opacity: .65;
-    outline: 0;
-    -webkit-transition: color 0.3s ease;
-      transition: color 0.3s ease;
-      outline: 0;
-      padding: 8px 30px;
-      font-weight: bold;
-      border-radius: 20px;
-      margin-block-start: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
   }
   /*end section 6*/
 
