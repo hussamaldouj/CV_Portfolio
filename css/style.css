@@ -227,7 +227,7 @@ body {
 /*end container*/
 /*start section 1*/
 #info_home {
-    background: url(/img/Conception.jpg) no-repeat center center fixed;
+    background: url(../img/Conception.jpg) no-repeat center center fixed;
     background-size: cover;
   }
   #info_home::before  {
@@ -240,7 +240,7 @@ body {
     background-color: #0b1116ce;
   }
 .col_6 .img_wel{
-    background: url(/img/load.png) no-repeat center center;
+    background: url(../img/load.png) no-repeat center center;
     position: absolute;
     z-index: 999;
     display: inline-block;
@@ -259,7 +259,7 @@ body {
 }
 
 .col_6  .img_hussam {
-  background: url(/img/hussam_2.png) no-repeat;
+  background: url(../img/hussam_2.png) no-repeat;
   position: relative;
   width: 98%;
   left: 5%;
@@ -376,7 +376,7 @@ body {
     text-decoration: none;
 }
 .about_logo {
-    background: url(/img/development.png) no-repeat center center;
+    background: url(../img/development.png) no-repeat center center;
     transition: 2s;
     background-size: contain;
     width: 100%;
@@ -624,7 +624,7 @@ body {
   /*end section 4*/
   /*start section 5*/
   #Port_folio  {
-    background: url(/img/caver.png) no-repeat center center fixed;
+    background: url(../img/caver.png) no-repeat center center fixed;
   }
   #Port_folio::before  {
     content: "";
@@ -656,11 +656,11 @@ body {
     display: inline-block;
 }
   #Port_folio .sticker_1:nth-child(1){
-      background: url(/img/main-image.png)no-repeat center center ;
+      background: url(../img/main-image.png)no-repeat center center ;
       background-size: contain;
   }
   #Port_folio .sticker_1:nth-child(1):hover{
-    background: url(/img/data.png) no-repeat center center ;
+    background: url(../img/data.png) no-repeat center center ;
     margin-left: 0%;
     background-size: contain;
     width: 100%;
@@ -669,11 +669,11 @@ body {
   }
  
   #Port_folio .sticker_2:nth-child(1){
-    background: url(/img/web-design.png)no-repeat center center ;
+    background: url(../img/web-design.png)no-repeat center center ;
     background-size: contain;
   }
   #Port_folio .sticker_2:nth-child(1):hover{
-    background: url(/img/bg.png) no-repeat center center ;
+    background: url(../img/bg.png) no-repeat center center ;
     margin-left: 0%;
     background-size: contain;
     width: 100%;
@@ -683,7 +683,7 @@ body {
 /*end section 5*/
 /*start section 6*/
 #contact  {
-    background: url(/img/map-color-overlay.png) no-repeat center center;
+    background: url(../img/map-color-overlay.png) no-repeat center center;
   }
   #contact .col_6{
     display: flex;
