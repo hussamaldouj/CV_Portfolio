@@ -181,12 +181,12 @@ body {
 }
 .rw{
   width: 100%;
-  height: 260px;
-display: flex;
-justify-content: center;
-margin: 50px 20px 5px 20px;
-padding-left: 0px;
-padding-right: 0px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 50px 20px 5px 20px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .col_6{
     position: relative;
@@ -809,17 +809,15 @@ padding-right: 0px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
   }
-  .col{
-    padding-left: 10px;
-    padding-right: 10px;
-    align-items: center;
-    }
     .col-4 {
    width: calc(100% * 1 / 3.001);
    }
    @media only screen and (max-width: 768px){
    .col-4 {
    width: 100%;
+   }
+   .rw{
+    flex-direction: column;
    }
    }
   .card-nav{
