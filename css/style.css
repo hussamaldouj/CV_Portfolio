@@ -988,7 +988,7 @@ letter-spacing: 0px;
 top: 0px;
 background: #160d1473;
 height: 395px;
-position: sticky;
+position: fixed;
 display: inline-block;
 z-index: 999;
 margin-top: 44px;
@@ -1025,7 +1025,6 @@ transition: all 0.9s ease-in;
 -o-transition: all .9s ease-in;
 }
 .container{
-top: -420px;
 left: 10%;
 }
 .row {
@@ -1040,7 +1039,7 @@ content: "";
 margin-top: -10px;
 margin-left: -20px;
 width: 100%;
-height: 16%;
+height: 14%;
 position: absolute;
 background-color: #0b1116ce;
 }
