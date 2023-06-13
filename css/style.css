@@ -789,8 +789,9 @@ body {
     background-color: #dd0d8a;
     font-family:'Amiri'!important;
     color: #fff;
-    width: 160px;
-    height: 35px;
+    width: auto;
+    height: auto;
+    padding: 10px;
     display: block;
     font-size: 21px;
     text-align: center;
