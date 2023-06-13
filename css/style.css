@@ -1159,7 +1159,7 @@ font: bold 11px "cursive";
 text-align: center;
 }
 .timeline .timeline-pops p {
-font: 600 13px "cursive";
+font: 400 13px "math";
 text-align: center;
 }
 .timeline li:nth-child(1)::before {
