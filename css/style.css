@@ -102,6 +102,7 @@ body {
   background-color: #ff23be00;
   flex: 0 1 10%;
   border-radius: 12px;
+  padding-left: 20px;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
@@ -552,18 +553,18 @@ body {
     } 
 .timeline .timeline-pops h2:nth-child(odd) {
     color: #cf0da5;
-    font: bold 18px "cursive";
+    font: bold 18px;
     text-align: center;
     width: 20%;
   }
   .timeline .timeline-pops h2:nth-child(even) {
     color: #cf0da5;
-    font: bold 18px "cursive";
+    font: bold 18px;
     text-align: center;
     width: 20%;
   }
  .timeline .timeline-pops p {
-    font: 600 13px "cursive";
+    font: 600 13px;
     text-align: center;
     width: 80%;
   }
@@ -731,7 +732,9 @@ body {
     height: 70px;
     border: 1px solid;
     border-radius: 50%;
-    line-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
     border-color: #ff23be;
   
