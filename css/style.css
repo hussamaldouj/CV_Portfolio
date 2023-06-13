@@ -502,8 +502,7 @@ width: 100%;
 .timeline{
 height: 80%;
 position: relative;
-top: 125px;
-
+top: 110px;
 }
 .timeline ul {
 line-height: 40px;
@@ -516,7 +515,7 @@ margin-block-start: 0px;
 .timeline .timeline-pops {
 position: relative;
 display: flex;
-gap:5px;
+gap:2px;
 }
 .timeline li {
 max-width: 100%;
@@ -528,7 +527,7 @@ position: relative;
 border-radius: 15px;
 background-color: #000000ab;
 margin-bottom: 0px;
-padding: 2px;
+padding: 0px;
 color: #d6dfe0;
 border: #10c7c7 1px solid;
 display: flex;
@@ -549,22 +548,21 @@ list-style: none;
 list-style: none;
 float:right;
 clear: left;
-
 } 
 .timeline .timeline-pops h2:nth-child(odd) {
 color: #cf0da5;
-font: bold 18px "cursive";
+font: bold 18px "math";
 text-align: center;
 width: 20%;
 }
 .timeline .timeline-pops h2:nth-child(even) {
 color: #cf0da5;
-font: bold 18px "cursive";
+font: bold 18px "math";
 text-align: center;
 width: 20%;
 }
 .timeline .timeline-pops p {
-font: 600 13px "cursive";
+font: 600 13px "math";
 text-align: center;
 width: 80%;
 }
@@ -790,13 +788,13 @@ transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 --bs-btn-border-width: 0px;
 --bs-btn-border-color: #dd0d8a;
 background-color: #dd0d8a;
-font-family:'Amiri'!important;
+font-family:'math'!important;
 color: #fff;
 width: auto;
 height: auto;
 padding: 10px;
 display: block;
-font-size: 21px;
+font-size: 16px;
 text-align: center;
 margin-right: 0px !important;
 font-weight: bold;
@@ -958,7 +956,7 @@ font-size: 0.9rem;
 /*media query*/
 @media only screen and (min-width: 991px){
 #info_edu{
-left: 45%;
+left: 41%;
 }
 }
 @media only screen and (max-width: 991px){
@@ -1153,17 +1151,17 @@ width: 100%;
 height: 95px;
 }
 .timeline .timeline-pops h2:nth-child(odd) {
-color: #bd3f9dc7;
-font: bold 11px "cursive";
+color: #dd0d8a;
+font: bold 11px "math";
 text-align: center;
 }
 .timeline .timeline-pops h2:nth-child(even) {
-color: #bd3f9dc7;
-font: bold 11px "cursive";
+color: #dd0d8a;
+font: bold 11px "math";
 text-align: center;
 }
 .timeline .timeline-pops p {
-font: 600 13px "cursive";
+font: 600 13px "math";
 text-align: center;
 }
 .timeline li:nth-child(1)::before {
