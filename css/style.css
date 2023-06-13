@@ -3,7 +3,7 @@ body {
     background: #191932;
     display: block;
     position: relative;
-    font-family:'Times New Roman', Times, serif,cursive;
+    font-family: math;
 }
 @keyframes D {
   0% {
@@ -188,7 +188,7 @@ body {
 .col_6 .code_flex{
   width: 100%;
   height: 100%;
-  align-items: center;
+  align-items: stretch;
   position: relative;
   display: flex;
   justify-content: center;
@@ -375,10 +375,14 @@ body {
     color: aliceblue;
     text-decoration: none;
 }
-.about_logo {
-    background: url(../img/development.png) no-repeat center center;
+.about_logo{
+  position: relative;
+    width: 100%;
+    height: 100%;
+}
+.about_logo img{
     transition: 2s;
-    background-size: contain;
+    object-fit: fill;
     width: 100%;
     height: 100%;
 }
