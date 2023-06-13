@@ -502,7 +502,7 @@ width: 100%;
 .timeline{
 height: 80%;
 position: relative;
-top: 110px;
+top: 95px;
 }
 .timeline ul {
 line-height: 40px;
@@ -1148,7 +1148,7 @@ left: 30px;
 .timeline .timeline-pops{
 margin-left: 0px;
 width: 100%;
-height: 85px;
+height: 80px;
 }
 .timeline .timeline-pops h2:nth-child(odd) {
 font: bold 11px "cursive";
