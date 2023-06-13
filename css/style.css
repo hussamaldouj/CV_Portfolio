@@ -179,15 +179,6 @@ body {
     border-radius: 15px;
     box-shadow: -4px -4px 10px #160d1473, 4px 4px 10px;
 }
-.rw{
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  margin: 50px 20px 5px 20px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
 .col_6{
     position: relative;
     width: 50%;
@@ -646,6 +637,7 @@ body {
   #Port_folio  {
     background: url(../img/caver.jpeg) no-repeat center center fixed;
     background-size: cover;
+    height: inherit;
   }
   #Port_folio::before  {
     content: "";
@@ -808,6 +800,16 @@ body {
     margin-top: 20px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+  }
+  .rw{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 20px 5px 20px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
     .col-4 {
    width: calc(100% * 1 / 3.001);
