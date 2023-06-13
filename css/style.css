@@ -1161,7 +1161,7 @@ font: bold 11px "math";
 text-align: center;
 }
 .timeline .timeline-pops p {
-font: 600 11px "math";
+font: 400 11px "math";
 text-align: center;
 }
 .timeline li:nth-child(1)::before {
