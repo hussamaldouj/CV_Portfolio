@@ -248,7 +248,7 @@ top: 69px;
 height: 55%;
 }
 .col_6  .back_img {
-background: #883293;
+background: #5d515e3b;
 width: 251px;
 height: 251px;
 position: relative;
@@ -400,7 +400,7 @@ width: 80%;
 height: 11px;
 margin-top: 25px;
 position: relative;
-background-color: #ff23be;
+background-color: #9f9fe3;
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
 border-top-right-radius: 10px;
@@ -420,6 +420,7 @@ margin-top: -42px;
 background: rgba(199, 198, 198, 0.6);
 }
 .candidatos .parcial .info .nome {
+    padding-top: 15px;
 position: absolute;
 top: 0;
 left: 0;
@@ -428,6 +429,7 @@ font-weight: 600;
 color: #ffffff;
 }
 .candidatos .parcial .info .percentagem-num {
+    padding-top: 15px;
 position: absolute;
 top: 0;
 right: 0;
